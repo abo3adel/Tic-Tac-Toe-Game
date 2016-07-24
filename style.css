@@ -1,0 +1,89 @@
+body {
+  background-color: #d5d5d5;
+}
+
+.center-block {
+  float: none;
+  margin-top: 7rem;
+  transition: all ease .6s;
+  -webkit-transition: all ease .6s;
+  -moz-transition: all ease .6s;
+  -o-transition: all ease .6s;
+  padding: 0;
+}
+
+.h1 {
+  font-size: 6rem;
+  color: #005d60;
+}
+
+.cell {
+  height: 12rem;
+  font-size: 6rem;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #00b7ff;
+  cursor: pointer;
+  transition: all linear 1s;
+}
+
+.cell .val {
+  vertical-align: middle;
+}
+
+#top-left,
+#top-center,
+#top-right {
+  border-top: 0;
+}
+
+#top-left,
+#center-left,
+#bottom-left {
+  border-left: 0;
+}
+
+#top-right,
+#center-right,
+#bottom-right {
+  border-right: 0;
+}
+
+#bottom-left,
+#bottom-center,
+#bottom-right {
+  border-bottom: 0;
+}
+
+.win {
+  color: #00ff78;
+  text-decoration: underline;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: flash 0.7s ease-in-out 0.3s infinite;
+  animation: flash 0.7s ease-in-out 0.3s infinite;
+}
+
+@-webkit-keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}

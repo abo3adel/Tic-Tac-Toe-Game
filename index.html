@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+		  <div class="col-sm-6 center-block text-center">
+		    <div id="top-left" class="col-xs-4 cell">
+		      <span class="val"></span>
+		    </div>
+		    <div id="top-center" class="col-xs-4 cell">
+		      <span class="val"></span>
+		    </div>
+		    <div id="top-right" class="col-xs-4 cell">
+		      <span class="val"></span>
+		    </div>
+		    <div id="center-left" class="col-xs-4 cell">
+		      <span class="val"></span>
+		    </div>
+		    <div id="center-center" class="col-xs-4 cell">
+		      <span class="val"></span>
+		    </div>
+		    <div id="center-right" class="col-xs-4 cell">
+		      <span id="asd" class="val"></span>
+		    </div>
+		    <div id="bottom-left" class="col-xs-4 cell">
+		      <span class="val"></span>
+		    </div>
+		    <div id="bottom-center" class="col-xs-4 cell">
+		      <span class="val"></span>
+		    </div>
+		    <div id="bottom-right" class="col-xs-4 cell">
+		      <span class="val"></span>
+		    </div>
+		    <div class="row">
+		      <h1 class="h1" id="h1">your turn</h1>
+		    </div>
+		  </div>
+		  <!-- /.center-block -->
+
+		  <!-- choose X or O modal -->
+		  <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+		    <div class="modal-dialog">
+		      <div class="modal-content">
+		        <div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		          <h4 class="modal-title">Tic Tac Toe Game</h4>
+		        </div>
+		        <div class="modal-body">
+		          <h3><b>X</b> or <b>O</b></h3>
+		        </div>
+		        <div class="modal-footer">
+		          <button type="button" class="btn btn-info pw-X" data-choose="X" data-dismiss="modal">X</button>
+		          <button type="button" class="btn btn-primary pw-O" data-choose="O" data-dismiss="modal">O</button>
+		        </div>
+		      </div>
+		      <!-- /.modal-content -->
+		    </div>
+		    <!-- /.modal-dialog -->
+		  </div>
+		  <!-- /.modal -->
+
+		  <input type="hidden" id="pw" class="pw" value="X" />
+		</div>
+		<!-- /.container -->
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
