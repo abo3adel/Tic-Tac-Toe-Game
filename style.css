@@ -63,7 +63,6 @@ body {
   -webkit-animation: flash 0.7s ease-in-out 0.3s infinite;
   animation: flash 0.7s ease-in-out 0.3s infinite;
 }
-
 @-webkit-keyframes flash {
   from,
   50%,
@@ -75,7 +74,6 @@ body {
     opacity: 0;
   }
 }
-
 @keyframes flash {
   from,
   50%,
